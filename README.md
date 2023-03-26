@@ -7,3 +7,4 @@ I installed Docker using the tutorial from Docker Docs: https://docs.docker.com/
 2) Select the "Use WSL 2 based engine" option in Docker Desktop settings.
 
 Below is a screenshot of my docker container terminal prompt.
+![Terminal](https://github.com/vnemala/CS482-Project/blob/milestone-1/Milestone1_VaisnaviNemala.jpg)
