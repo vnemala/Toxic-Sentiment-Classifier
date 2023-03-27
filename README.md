@@ -8,3 +8,6 @@ I installed Docker using the tutorial from Docker Docs: https://docs.docker.com/
 
 Below is a screenshot of my docker container terminal prompt.
 ![Terminal](https://github.com/vnemala/CS482-Project/blob/milestone-1/Milestone1_VaisnaviNemala.jpg)
+
+Below is another screenshot of Python on my terminal.
+![Image 2](https://github.com/vnemala/CS482-Project/blob/milestone-1/Milestone1_Image2_VaisnaviNemala.jpg)
