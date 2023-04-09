@@ -1,8 +1,10 @@
 import streamlit as st
 from transformers import pipeline
 
-classifier = pipeline("sentiment-analysis")
+model_name = st.text_input('Enter name of model used for sentiment analysis', 'sentiment-analysis')
+
+classifier = pipeline(model_name)
 text = st.text_input('Enter sample text', 'I really like HuggingFace and it is a great tool for deploying AI models.')
 
 result = classifier(text)
-st.write('The sentiment displayed in the sample text is', result[0]['label'], 'with a', (str((result[0]['score'])*100) + ' %'), 'accuracy')
+st.write('The sentiment displayed in the sample text is', result[0]['label'], 'with a', (str((result[0]['score'])*100) + ' %'), 'certainty.')
