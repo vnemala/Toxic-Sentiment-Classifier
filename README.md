@@ -23,3 +23,6 @@ Below is a screenshot of my docker container terminal prompt.
 
 Below is another screenshot of Python on my terminal.
 ![Image 2](https://github.com/vnemala/CS482-Project/blob/milestone-1/Milestone1_Image2_VaisnaviNemala.jpg)
+
+## Milestone 2 - Sentiment Analysis App with Streamlit on HuggingFace
+Link to application: https://huggingface.co/spaces/v-nemala/sentiment-analysis
