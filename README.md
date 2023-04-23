@@ -9,6 +9,7 @@ app_file: toxic_model.py
 pinned: false
 ---
 
+<!---
 ---
 title: Sentiment Analysis
 emoji: 😄
@@ -19,6 +20,7 @@ sdk_version: 1.17.0
 app_file: app.py
 pinned: false
 ---
+--->
 
 
 # CS482-Project
