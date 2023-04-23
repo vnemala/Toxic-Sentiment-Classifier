@@ -26,3 +26,5 @@ Below is another screenshot of Python on my terminal.
 
 ## Milestone 2 - Sentiment Analysis App with Streamlit on HuggingFace
 Link to application: https://huggingface.co/spaces/v-nemala/sentiment-analysis
+
+## Milestone 3 - Finetuning Language Models
