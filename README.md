@@ -1,4 +1,15 @@
 ---
+title: Toxic Comment Classification
+emoji: 💬
+colorFrom: green
+colorTo: yellow
+sdk: streamlit
+sdk_version: 1.17.0
+app_file: toxic_model.py
+pinned: false
+---
+
+---
 title: Sentiment Analysis
 emoji: 😄
 colorFrom: blue
@@ -8,6 +19,7 @@ sdk_version: 1.17.0
 app_file: app.py
 pinned: false
 ---
+
 
 # CS482-Project
 CS482-Project - Vaisnavi Nemala
