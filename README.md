@@ -1,10 +1,10 @@
 ---
 title: Toxic Comment Classification
 emoji: 💬
-colorFrom: green
-colorTo: yellow
+colorFrom: blue
+colorTo: purple
 sdk: streamlit
-sdk_version: 1.17.0
+sdk_version: 1.19.0
 app_file: toxic_model.py
 pinned: false
 ---
