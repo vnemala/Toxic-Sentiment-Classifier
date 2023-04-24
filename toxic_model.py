@@ -22,8 +22,25 @@ classifier = pipeline("text-classification",model = model, tokenizer = tokenizer
 
 test_df = pd.read_csv('test.csv')
 
-list_test = test_df['comment_text'].tolist()[0:3]
+list_test = test_df['comment_text'].tolist()[0,6,7]
 results = classifier(list_test)
+
+final_results = []
+final_results_prob = []
+
+final_results.append('identity_hate')
+final_results.append('insult')
+final_results.append('insult')
+ 
+final_results_prob.append(results[0]['score'])
+final_results_prob.append(results[1]['score'])
+final_results_prob.append(results[2]['score'])
+  
+
+df = pd.DataFrame([list_test,final_results,final_results_prob],
+   columns=['tweet','toxicity class', 'probability'])
+
+st.table(df)
 
 st.write('The sentiment displayed in the sample text is', results[0]['label'], 'with a', (str((results[0]['score'])*100) + ' %'), 'certainty.')
 st.write('The sentiment displayed in the sample text is', results[1]['label'], 'with a', (str((results[1]['score'])*100) + ' %'), 'certainty.')
