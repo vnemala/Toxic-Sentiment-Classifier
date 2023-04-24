@@ -10,6 +10,9 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch
 import torch.nn.functional as F
 
+import pandas as pd
+import numpy as np 
+
 model_name = "distilbert-base-uncased-finetuned-sst-2-english"
 
 tokenizer = AutoTokenizer.from_pretrained('toxic-comment-model')
