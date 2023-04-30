@@ -42,8 +42,8 @@ Below is another screenshot of Python on my terminal.
 Link to application: https://huggingface.co/spaces/v-nemala/sentiment-analysis
 
 ## Milestone 3 - Finetuning Language Models
-Links to code 1: https://github.com/vnemala/CS482-Project/blob/main/Project_Milestone3.ipynb
-Link to code 2: https://github.com/vnemala/CS482-Project/blob/main/Project_Milestone3_2.ipynb
+Links to code draft: https://github.com/vnemala/CS482-Project/blob/main/Project_Milestone3.ipynb
+Link to code final: https://github.com/vnemala/CS482-Project/blob/main/Milestone3_Final.ipynb
 Link to application: https://huggingface.co/spaces/v-nemala/toxic-comment-classification?logs=build
 
 ## Milestone 4 - Documentation and Video Production
