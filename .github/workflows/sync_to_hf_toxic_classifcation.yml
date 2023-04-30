@@ -18,4 +18,5 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://v-nemala:$HF_TOKEN@huggingface.co/spaces/v-nemala/toxic-comment-classification main
+        run: git filter-branch --index-filter --f "git rm -rf --cached --ignore-unmatch"
+             git push --force https://v-nemala:$HF_TOKEN@huggingface.co/spaces/v-nemala/toxic-comment-classification main
