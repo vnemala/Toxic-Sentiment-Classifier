@@ -45,3 +45,7 @@ Link to application: https://huggingface.co/spaces/v-nemala/sentiment-analysis
 Links to code 1: https://github.com/vnemala/CS482-Project/blob/main/Project_Milestone3.ipynb
 Link to code 2: https://github.com/vnemala/CS482-Project/blob/main/Project_Milestone3_2.ipynb
 Link to application: https://huggingface.co/spaces/v-nemala/toxic-comment-classification?logs=build
+
+## Milestone 4 - Documentation and Video Production
+Code Documentation: https://github.com/vnemala/CS482-Project/blob/main/CS%20482%20Project%20%C2%B7%20Vaisnavi%20Nemala.pdf
+Landing Page of Website: https://sites.google.com/njit.edu/classify-toxicity-vnemala/home
