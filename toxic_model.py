@@ -13,9 +13,11 @@ import torch.nn.functional as F
 import pandas as pd
 import numpy as np 
 
-model_name = "distilbert-base-uncased-finetuned-sst-2-english"
-st.write('The text written here is used for solely demonstration purposes and does not reflect the views of the programmer.')
 
+# model_name = "distilbert-base-uncased-finetuned-sst-2-english"
+model_name = 'bert-base-uncased'
+st.write('The text written here is used for solely demonstration purposes and does not reflect the views of the programmer.')
+option = st.selectbox('Model Name:',[model_name])
 tokenizer = AutoTokenizer.from_pretrained('toxic-comment-model')
 model = AutoModelForSequenceClassification.from_pretrained('toxic-comment-model')
 
