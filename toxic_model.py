@@ -14,7 +14,6 @@ import pandas as pd
 import numpy as np 
 
 model_name = "distilbert-base-uncased-finetuned-sst-2-english"
-st.title("Toxic Comment Classification")
 st.write('The text written here is used for solely demonstration purposes and does not reflect the views of the programmer.')
 
 tokenizer = AutoTokenizer.from_pretrained('toxic-comment-model')
