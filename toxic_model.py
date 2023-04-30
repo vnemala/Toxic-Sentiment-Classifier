@@ -14,6 +14,8 @@ import pandas as pd
 import numpy as np 
 
 model_name = "distilbert-base-uncased-finetuned-sst-2-english"
+st.title("Toxic Comment Classification")
+st.write('The text written here is used for solely demonstration purposes and does not reflect the views of the programmer.')
 
 tokenizer = AutoTokenizer.from_pretrained('toxic-comment-model')
 model = AutoModelForSequenceClassification.from_pretrained('toxic-comment-model')
@@ -22,7 +24,10 @@ classifier = pipeline("text-classification",model = model, tokenizer = tokenizer
 
 test_df = pd.read_csv('test.csv')
 
-list_test = test_df['comment_text'].tolist()[0,6,7]
+list_test = []
+list_test.append(test_df['comment_text'].tolist()[0])
+list_test.append(test_df['comment_text'].tolist()[6])
+list_test.append(test_df['comment_text'].tolist()[7])
 results = classifier(list_test)
 
 final_results = []
