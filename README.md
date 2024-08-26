@@ -23,8 +23,8 @@ pinned: false
 --->
 
 
-# CS482-Project
-CS482-Project - Vaisnavi Nemala
+# Toxic Comment Classification
+Toxic Comment Classification Project - Vaisnavi Nemala
 
 ## Milestone 1 - Docker Installation
 I installed Docker using the tutorial from Docker Docs: https://docs.docker.com/desktop/windows/wsl/, and also followed the Docker tutorial available with CodeWithMosh (https://www.youtube.com/watch?v=pTFZFxd4hOI).
