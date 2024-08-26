@@ -42,7 +42,6 @@ Below is another screenshot of Python on my terminal.
 Link to application: https://huggingface.co/spaces/v-nemala/sentiment-analysis
 
 ## Milestone 3 - Finetuning Language Models
-Links to code draft: https://github.com/vnemala/Toxic-Sentiment-Classifier/blob/main/Project_Milestone3.ipynb <br>
 Link to code final: https://github.com/vnemala/Toxic-Sentiment-Classifier/blob/main/Milestone3_Final.ipynb <br>
 Link to application: https://huggingface.co/spaces/v-nemala/toxic-comment-classification?logs=build
 
